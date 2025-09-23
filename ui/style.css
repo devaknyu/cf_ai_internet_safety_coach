@@ -1,0 +1,17 @@
+/* ui/style.css */
+:root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#9aa4b2;--white:#e6eef8}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:linear-gradient(180deg,#021025,#071429);color:var(--white);min-height:100vh;display:flex;align-items:flex-start;justify-content:center;padding:32px}
+.container{width:720px;background:rgba(255,255,255,0.03);padding:24px;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+h1{margin:0 0 6px;font-size:22px}
+.subtitle{margin:0 0 16px;color:var(--muted)}
+textarea{width:100%;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--white);resize:vertical}
+.controls{display:flex;gap:8px;margin-top:10px;align-items:center}
+.controls input#userId{flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--white)}
+button{background:var(--accent);border:none;color:#042029;padding:10px 14px;border-radius:8px;cursor:pointer}
+button:hover{opacity:0.95}
+#status{margin-left:8px;color:var(--muted);font-size:13px}
+#results{margin-top:18px;padding:12px;border-radius:8px;background:rgba(0,0,0,0.25)}
+.history{margin-top:12px;color:var(--muted);font-size:14px}
+.result-item{padding:8px;border-bottom:1px dashed rgba(255,255,255,0.03)}
+.badge{display:inline-block;padding:4px 8px;border-radius:6px;background:rgba(255,255,255,0.06);margin-left:6px;font-size:12px}

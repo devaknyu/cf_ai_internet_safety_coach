@@ -1,0 +1,7 @@
+name = "cf_ai_internet_safety_coach"
+main = "src/worker.js"
+compatibility_date = "2024-09-22"
+
+[ai]
+binding = "AI"
+

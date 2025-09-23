@@ -1,0 +1,10 @@
+{
+  "name": "cf_ai_internet_safety_coach",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "devDependencies": {}
+}

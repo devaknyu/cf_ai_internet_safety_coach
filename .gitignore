@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Wrangler / Cloudflare local files
+wrangler.toml.local
+.miniflare/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment / secrets
+.env
