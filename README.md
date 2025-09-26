@@ -3,6 +3,9 @@
 An **AI-powered Internet Safety Coach** built on **Cloudflare Workers AI**.  
 Users can paste suspicious emails, texts, or messages into the app, and the AI will classify them as **Safe / Suspicious**, explain why, and remember past checks for context.
 
+## Frontend Preview
+
+![Frontend Screenshot](./assets/frontend_display.png)
 ---
 
 ## 🚀 Features
