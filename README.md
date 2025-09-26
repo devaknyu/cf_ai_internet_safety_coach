@@ -8,6 +8,11 @@ Users can paste suspicious emails, texts, or messages into the app, and the AI w
 ![Frontend Screenshot](./assets/frontend_display.png)
 ---
 
+## ▶️  Demo
+ [Click here to watch the demo](https://drive.google.com/file/d/1mcT1ZWHbgO3ysa2BR4ArKYXWx1UACKS3/view?usp=sharing)
+
+---
+
 ## 🚀 Features
 - **LLM-powered classification** using **Llama 3.3** on Workers AI.
 - **Workflow orchestration** with Cloudflare Workers (optionally Workflows).
